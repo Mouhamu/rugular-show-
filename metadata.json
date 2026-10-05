@@ -1,0 +1,6 @@
+{
+  "name": "Frontline Strike 3D - Tactical Mobile Ops",
+  "description": "A high-performance 3D third-person multiplayer military action game optimized for low and mid-range mobile devices with local Bluetooth multiplayer, responsive touch controls, balanced tactical weapons, modular characters, and offline progression.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
