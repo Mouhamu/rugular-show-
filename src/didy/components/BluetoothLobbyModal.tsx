@@ -359,12 +359,14 @@ export const BluetoothLobbyModal: React.FC<BluetoothLobbyModalProps> = ({
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  {blueTeam.map(player => (
-                    <div
-                      key={player.id}
+                 
                       className="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/80 border border-white/5"
-                    >
-                      <div className="flex items-center gap-2.5">
+                    > {blueTeam.map(player => (
+                    <div
+  key={player.id}
+  className="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/80 border border-white/5"
+>
+  <div className="flex items-center gap-2.5">
                         <div className="w-8 h-8 rounded-lg bg-blue-500/20 border border-blue-400/40 flex items-center justify-center font-display font-black text-blue-300 text-xs">
                           {player.name[0]}
                         </div>
@@ -377,7 +379,7 @@ export const BluetoothLobbyModal: React.FC<BluetoothLobbyModalProps> = ({
                             <span className="text-xs font-display font-bold text-white">{player.name}</span>
                             {player.isHost && (
                               <span className="text-[9px] font-mono bg-amber-400/20 text-amber-300 px-1 rounded">HOST</span>
-                            )}
+                           )}
                           </div>
                           <span className="text-[10px] font-mono text-slate-400">{player.deviceModel}</span>
                         </div>
@@ -391,7 +393,7 @@ export const BluetoothLobbyModal: React.FC<BluetoothLobbyModalProps> = ({
                         </span>
                       </div>
                     </div>
-                  ))}
+                  ))} 
                 </div>
               </div>
             </div>
