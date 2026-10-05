@@ -371,10 +371,7 @@ export const BluetoothLobbyModal: React.FC<BluetoothLobbyModalProps> = ({
                         <div className={isRtl ? 'text-right' : 'text-left'}>
                           <div className="flex items-center gap-1.5">
                          
-              </button>
-            </div>
-          </div>
-        )}
+        
                         <div>
                           <div className="flex items-center gap-1.5">
                             <span className="text-xs font-display font-bold text-white">{player.name}</span>
